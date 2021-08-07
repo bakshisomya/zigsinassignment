@@ -1,0 +1,98 @@
+.twotiles {
+    width: 100%;
+    background-color: #f4f8fd;
+}
+
+.toptile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(../../assets/images/cover.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.overlaycard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+    height: 75%;
+    background-color: #0c125573;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.overlaycard h1 {
+    font-family: 'Lora', serif;
+}
+
+.overlaycard p {
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 160%;
+    margin: 20px;
+}
+
+.bottomtile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+
+.bottomtile .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: rgb(48, 48, 48)
+}
+
+.cardtop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+}
+
+.cardtop h2 {
+    font-family: 'Lora', serif;
+    line-height: 160%
+}
+
+.cardtop p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 160%;
+    margin: 10px
+}
+
+.cardbottom {
+    width: 100%;
+    height: 50%;
+    background-image: url(../../assets/images/bags.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.cardbottom2 {
+    width: 100%;
+    height: 50%;
+    background-image: url(../../assets/images/girl.png);
+    background-position: center;
+    background-size: cover;
+}
